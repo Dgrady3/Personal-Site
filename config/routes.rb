@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
- root :homes, only: [:show]
+ root :homes, only: [:index, :show]
 end
